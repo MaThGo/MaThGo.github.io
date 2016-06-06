@@ -28,6 +28,8 @@ body {
   body section p {
     margin: 10px 15px;
     text-align: justify; }
+  body .only-big {
+    display: none; }
 
 @media (min-width: 768px) {
   body {
@@ -39,6 +41,8 @@ body {
       line-height: 45px; }
     body img.photo {
       width: 300px;
-      float: left; } }
+      float: left; }
+    body .only-big {
+      display: initial; } }
 
 /*# sourceMappingURL=app.css.map */
