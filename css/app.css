@@ -5,6 +5,16 @@ body {
   text-align: center;
   color: #e2c391;
   font-size: 18px; }
+  body a {
+    color: #f6e57f;
+    text-decoration: none; }
+    body a:visited {
+      color: #e2c391; }
+    body a:hover {
+      text-decoration: underline; }
+  body ul {
+    padding: 0;
+    list-style: none; }
   body h1 {
     color: #f6e57f;
     font-family: 'Lato', sans-serif;

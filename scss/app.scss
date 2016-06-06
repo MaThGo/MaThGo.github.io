@@ -8,6 +8,24 @@ body {
     color: $skinny;
     font-size: 18px;
 
+    a {
+        color: $yellow;
+        text-decoration: none;
+
+        &:visited {
+            color: $skinny;
+        }
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+
+    ul {
+        padding: 0;
+        list-style: none;
+    }
+
     h1 {
         color: $yellow;
         font-family: 'Lato', sans-serif;
