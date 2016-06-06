@@ -87,5 +87,9 @@ body {
         .only-big {
             display: initial;
         }
+
+        section > p {
+            margin: 10px 5px;
+        }
     }
 }
