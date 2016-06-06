@@ -53,6 +53,8 @@ body {
       width: 300px;
       float: left; }
     body .only-big {
-      display: initial; } }
+      display: initial; }
+    body section > p {
+      margin: 10px 5px; } }
 
 /*# sourceMappingURL=app.css.map */
